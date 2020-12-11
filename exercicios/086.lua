@@ -30,7 +30,6 @@ professor digite o gabarito da prova antes dos alunos usarem o programa.
 aluno_com_maior_acerto = ""
 aluno_com_menor_acerto = ""
 maior_acerto = 0
-menor_acerto = 10
 media_da_turma = 0
 numero_de_alunos = 0
 -- ? O gabarito e os alunos vão ser tabelas Lua
@@ -40,6 +39,7 @@ alunos = {}
 
 io.write("Digite o numero de questoes: ")
 numero_de_questoes = tonumber(io.read())
+menor_acerto = numero_de_questoes
 
 -- * Programa
 -- ? i vai de 1 até o número de questões
